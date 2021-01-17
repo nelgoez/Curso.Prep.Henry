@@ -19,13 +19,14 @@ h4 {font-size: 35px;
 img {width: 400px;
 position: relative;
 }
-.ThirdDiv {height: 600px;
+.thirdDiv {height: 600px;
           width: 500px;
           background: rgba(17, 128, 116, 0.5);
           padding: 50px;
           border-style: double;
           border-color: brown;
           border-width: 2px;
+          justify-content: center;
         }
 body {flex-grow: inherit;
         margin: 0 auto;
