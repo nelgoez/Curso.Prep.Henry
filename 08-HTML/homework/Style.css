@@ -1,0 +1,36 @@
+h1 {color:green;
+    background: white;
+    font-size: 50px;
+    margin: 5px;
+    text-align: center;
+    width: 0 auto;
+}
+h3 {color: yellowgreen;
+    font-size: 20px;
+    margin: 10px;
+    text-align: center;}
+h4 {font-size: 35px;
+    margin: 5px;
+    text-align: center;
+    font-style: oblique;}
+#spanId {font-size: 18px;
+    text-align: center;
+    margin: 50px;}
+img {width: 400px;
+position: relative;
+}
+.ThirdDiv {height: 600px;
+          width: 500px;
+          background: rgba(17, 128, 116, 0.5);
+          padding: 50px;
+          border-style: double;
+          border-color: brown;
+          border-width: 2px;
+        }
+body {flex-grow: inherit;
+        margin: 0 auto;
+        background: url('https://scontent.fcor11-1.fna.fbcdn.net/v/t1.0-9/92577965_507624219908304_7124240559442493440_o.jpg?_nc_cat=105&ccb=2&_nc_sid=9267fe&_nc_ohc=aNi8H0UOCCwAX-lcsGr&_nc_ht=scontent.fcor11-1.fna&oh=0a42a4ff9f738598f1134a456966fc3b&oe=602A4ECD');
+        background-blend-mode: soft-light;
+        padding: 0 20px 20px 20px;
+        border: 5px solid black;
+          }
