@@ -60,11 +60,8 @@ function arrayContiene(array, elemento) {
   // Devuelve "true" si está, o "false" si no está
   // Tu código:
   for (let a = 0; a < array.length; a++) {
-    if (array [a] === elemento) {
-      return true;
-    }
+    return (!(array [a] !== elemento));
   }
-  return false;
 }
 
 function agregarNumeros(numeros) {
@@ -101,7 +98,6 @@ function numeroMasGrande(numeros) {
    }
    return max;
 } 
-
 function multiplicarArgumentos() {
   // Usa la palabra clave `arguments` para multiplicar todos los argumentos y devolver el producto
   // Si no se pasan argumentos devuelve 0
