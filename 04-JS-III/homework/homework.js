@@ -211,17 +211,18 @@ function breakStatement(numero) {
   // Tu código:
   let a = [];
   let s = numero;
-  for (let i = 0; i < 10; i++){
+    for (let i = 0; i < 10; i++){
     s += 2;
-    a.push(s);
-    if (s === i){
-      return "Se interrumpió la ejecución";
+    if (a[s]){
+      break;
     }
+    a.push(s);
+  }
+  if (a.length < 10){
+    return "Se interrumpió la ejecución";
   }
   return a;
 }
-
-//console.log(breakStatement(-4));
 
 function continueStatement(numero) {
   //Iterar en un bucle aumentando en 2 el numero recibido hasta un límite de 10 veces.
